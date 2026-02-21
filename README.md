@@ -1,7 +1,7 @@
 # alpha-decay-detection-system
 
 ## Overview
-Markets evolve, hedge funds may copy your strategy, market microstructure may change, or the macroeconomic regime may shift. As a result, trading signals inevitably lose their edge—a phenomenon known as Alpha Decay. 
+Markets evolve, hedge funds may copy your strategy, market microstructure may change, or the macroeconomic regime may shift. As a result, trading signals inevitably lose their edge, a phenomenon known as Alpha Decay. 
 
 This repository contains a Jupyter Notebook built to detect the decay of Alpha. The system treats a trading signal like a biological organism or a radioactive isotope to answer one critical question: *Has my trading signal stopped working?*
 
