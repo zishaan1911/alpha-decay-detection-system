@@ -1,2 +1,2 @@
 # alpha-decay-detection-system
-A quantitative research project analyzing the decay of trading strategy alpha over time using statistical modeling, rolling performance metrics, and signal persistence analysis.
+The Alpha Decay Detection System is a statistical tool designed to monitor quantitative trading strategies and detect when a trading signal has stopped working. Since markets evolve and strategies get copied, alpha eventually shrinks. This Python-based Jupyter Notebook extracts historical alpha using a Rolling OLS regression against Fama-French factors, applies Bayesian Online Change-Point Detection (BOCD) to identify structural regime shifts, and utilizes survival analysis to estimate the remaining half-life and survival probability of the signal.
