@@ -18,6 +18,17 @@ The system evaluates the validity of your alpha using a mix of classical econome
 * **Bayesian Online Change-Point Detection (BOCD):** Uses the Adams & MacKay (2007) algorithm combined with a Normal-Inverse-Gamma (NIG) Conjugate Likelihood. It updates the probability of a change-point at every timestep.
 * **Alpha Survival Model:** Models the survival of alpha using an exponential survival model (constant hazard rate) to determine the half-life and output a composite "Alpha Health" score that factors in BOCD survival, statistical significance, and trend.
 
+## Notebook Structure
+The notebook (Alpha Decay Detection System.ipynb) is divided into 4 core parts:
+
+**Part 0 & 1** - Setup and Data Acquisition: Loads dependencies, fetches public Fama-French data, and simulates a signal experiencing gradual decay over a transition period.
+**Part 2** - Rolling OLS: Extracts the "hidden" realized alpha using rolling window Ordinary Least Squares (OLS) regression.
+**Part 3** - BOCD: Maintains a probability distribution over the "run length" (time since the last regime change) to detect shifts.
+**Part 4** - Alpha Survival Model: Merges the Bayesian probabilities and OLS test statistics into a final, interpretable Alpha Health report.
+
+## Disclaimer
+This project is for research and educational purposes only. Do not use this as the sole basis for real-world financial trading decisions.
+
 ## Getting Started
 
 ### Prerequisites
