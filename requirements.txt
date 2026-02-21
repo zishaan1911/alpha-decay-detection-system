@@ -1,1 +1,11 @@
+To run the notebook successfully, you will need a Python 3 environment (like Jupyter Notebook or JupyterLab) with the following third-party packages installed:
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+requests
+(Note: The notebook also uses standard library modules such as io, zipfile, warnings, and datetime which do not require manual installation.)
 
+Installation Command:
+pip install numpy pandas matplotlib seaborn scipy requests jupyter
